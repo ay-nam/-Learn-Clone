@@ -1,0 +1,134 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+.highlight{
+    color: rgb(255 138 76 );
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav img{
+    height: 2rem;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav ul li{
+    font-family: Poppins, sans-serif;
+    display: inline;
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link.active, .link a:hover{
+    color: rgb(255 138 76 );
+}
+.join, .left_side button{
+    background-color: rgb(255 138 76 );
+    border:none;
+    border-radius: .375rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding:10px 25px 10px 25px;
+}
+.newsletter{
+    border-color: rgb(255 138 76 );
+    background-color:white;
+    border-radius: .375rem;
+    color: rgb(255 138 76 );
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding:10px 25px 10px 25px;
+    box-shadow: none;
+    cursor: pointer;
+}
+h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #303030;
+
+}
+.section1{
+    display: flex;
+    margin-top: 110px;
+    line-height: 1.1;
+}
+
+.section1 .left_side button{
+    margin-top: 5px;
+    background-color:#f78c40;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.section1 .left_side p{
+    line-height: normal;
+}
+
+.section1 .left_side h1{
+    font-size: 4.5rem;
+    font-weight: 650;
+    margin-bottom: auto;
+}
+
+.section1 img{
+    width: 35rem;
+}
+main p{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    max-width: 35rem;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 37rem;
+}
+
+footer{
+    background-color: black;
+}
+
+footer img{
+    width:6rem;
+}
+
+footer button img{
+background-color: black;
+height: 2rem;
+width:2rem;
+border-color: black;
+transition: .5s ease;
+float: right;
+}
+
+
+.footer_copyright{
+    color:white;
+    font-size: .65rem;
+}
